@@ -15,7 +15,7 @@ module Travis
         MAP = {
           artifacts:     Artifacts,
           code_climate:  CodeClimate,
-          deploy:        Deploy::Group,
+          deploy:        Deploy,
           firefox:       Firefox,
           hosts:         Hosts,
           postgresql:    Postgresql,
